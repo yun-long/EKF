@@ -1,6 +1,6 @@
 """
-A Kalman Filter to estimate the state of a pendulum 
-(near linear when initial angule is small)
+A Kalman Filter to estimate the state of a swinging pendulum 
+(near linear when initial angle is small)
 """
 import numpy as np
 #
@@ -75,7 +75,7 @@ class Kalman(object):
     
 def main():
     #
-    dt = 0.05
+    dt = 0.02
     
     #
     kalman = Kalman(dt)
