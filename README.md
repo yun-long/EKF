@@ -1,6 +1,5 @@
-# EKF
-Extended Kalman Filter
-
+# EKF Extended Kalman Filter. 
+A python script for estimating the state of a pendulum using kalman filter and extended kalman filter
 
 ### Kalman Filter
 ![Kalman](./kalman.png)
